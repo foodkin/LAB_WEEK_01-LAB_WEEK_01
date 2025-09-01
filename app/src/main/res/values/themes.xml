@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.LAB_WEEK_01" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna default -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+
+    <!-- Custom styles -->
+    <style name="text_input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_display" parent="@style/TextAppearance.Material3.BodyLarge">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="screen_margin">
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
+</resources>
